@@ -15,7 +15,7 @@
 					<link rel="apple-touch-icon-precomposed" sizes="76x76" href="../wp-content/uploads/2016/04/master-retail_apple-icon-72x72.png">
 					<link rel="apple-touch-icon-precomposed" sizes="120x120" href="../wp-content/uploads/2016/04/master-retail_apple-icon-144x144.png">
 					<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../wp-content/uploads/2016/04/master-retail_apple-icon-144x144.png">
-		
+
 <!-- This site is optimized with the Yoast SEO plugin v3.2.5 - https://yoast.com/wordpress/plugins/seo/ -->
 <meta name="robots" content="noindex,follow"/>
 <link rel="canonical" href="index.html" />
@@ -90,7 +90,7 @@ var cnArgs = {"ajaxurl":"http:\/\/master-retail.it\/wp-admin\/admin-ajax.php","h
 <script type='text/javascript' src='../wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ultimate.min.js'></script>
 <link rel='https://api.w.org/' href='../wp-json/index.html' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.html?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://master-retail.it/wp-includes/wlwmanifest.xml" /> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://master-retail.it/wp-includes/wlwmanifest.xml" />
 
 <link rel='shortlink' href='../index8192.html?p=3035' />
 <link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed07af.json?url=http%3A%2F%2Fmaster-retail.it%2Fcontatti%2F" />
@@ -98,27 +98,27 @@ var cnArgs = {"ajaxurl":"http:\/\/master-retail.it\/wp-admin\/admin-ajax.php","h
 <meta name="generator" content="WPML ver:4.0.8 stt:1,27;" />
 		<script type="text/javascript">
 			var ajaxRevslider;
-			
+
 			jQuery(document).ready(function() {
 				// CUSTOM AJAX CONTENT LOADING FUNCTION
 				ajaxRevslider = function(obj) {
-				
+
 					// obj.type : Post Type
 					// obj.id : ID of Content to Load
 					// obj.aspectratio : The Aspect Ratio of the Container / Media
 					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
-					
+
 					var content = "";
 
 					data = {};
-					
+
 					data.action = 'revslider_ajax_call_front';
 					data.client_action = 'get_slider_html';
 					data.token = '10b07fa0bd';
 					data.type = obj.type;
 					data.id = obj.id;
 					data.aspectratio = obj.aspectratio;
-					
+
 					// SYNC AJAX REQUEST
 					jQuery.ajax({
 						type:"post",
@@ -128,17 +128,17 @@ var cnArgs = {"ajaxurl":"http:\/\/master-retail.it\/wp-admin\/admin-ajax.php","h
 						async:false,
 						success: function(ret, textStatus, XMLHttpRequest) {
 							if(ret.success == true)
-								content = ret.data;								
+								content = ret.data;
 						},
 						error: function(e) {
 							console.log(e);
 						}
 					});
-					
+
 					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
-					 return content;						 
+					 return content;
 				};
-				
+
 				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
 				var ajaxRemoveRevslider = function(obj) {
 					return jQuery(obj.selector+" .rev_slider").revkill();
@@ -149,7 +149,7 @@ var cnArgs = {"ajaxurl":"http:\/\/master-retail.it\/wp-admin\/admin-ajax.php","h
 					if (jQuery.fn.tpessential != undefined) {
 						clearInterval(extendessential);
 						if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined') {
-							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});   
+							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});
 							// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
 							// func: the Function Name which is Called once the Item with the Post Type has been clicked
 							// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
@@ -349,7 +349,7 @@ padding-right: 5.5px;
 #txt_contatti {
     width: 60%;
     margin: auto;
-    
+
 }
 
 #ul_servizi {
@@ -547,7 +547,7 @@ background:rgba(240,248,250,0.7);
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
-	.col { 
+	.col {
 		margin: 1% 0 1% 0%;
 	}
 }
@@ -560,7 +560,7 @@ background:rgba(240,248,250,0.7);
 #img_progetto {
     padding-bottom:;
 }
-    
+
 #h2_date {
     margin: 3% 0 0px;
 }
@@ -613,7 +613,7 @@ width: 90%;
 
 #txt_home_sezioni2 {
     width: 100%;
-}  
+}
 }
 
 @media only screen and (max-width: 768px) {
@@ -650,7 +650,7 @@ width: 90%;
 }
 
 @media only screen and (max-width: 500px) {
-    
+
 #txt1_caption_home {
     width:1000px;
 }
@@ -658,7 +658,7 @@ width: 90%;
 .h1_home_padding {
     padding-top:20px;
 }
-    
+
 #riga_home1{
     padding: 0;
 }
@@ -749,7 +749,7 @@ width: 90%;
 			            }
 					 }
 				});
-			</script>	
+			</script>
 				<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 		<meta name="generator" content="Powered by Slider Revolution 5.2.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
 <noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
@@ -757,10 +757,10 @@ width: 90%;
 <!-- Begin Body -->
 <body class="page page-id-3035 page-template-default cookies-not-set wpb-js-composer js-comp-ver-5.5.5 vc_responsive ks-theme header_minimal head_mt headers head ks-responsive link_effect1 no-main-top-margin no-main-bottom-margin footer-normal sidebar-widget-icons">
 
-		
+
  	<div id="wrap" class="clr">
 
-			
+
 				<header id="site-header" class="clr header-minimal" role="banner">
 										<div id="site-header-inner">
 						<div class="container">
@@ -772,7 +772,7 @@ width: 90%;
 								<img src="../wp-content/uploads/2016/03/logo_master-retail.png" alt="Master Retail" class="logo" />
 							</a>
 									</div><!-- .site-logo -->
-				
+
 		<div id="site-navigation-wrap" class="clr">
 						<nav class="site-navigation navigation main-navigation clr" role="navigation">
 				<ul class="main-nav dropdown-menu sf-menu">
@@ -787,24 +787,24 @@ width: 90%;
 				</ul>
 			</nav><!-- #site-navigation -->
 					</div><!-- #site-navigation-wrap -->
-			
+
 																	<div class="mobile-menu"><a href="#open-menu"><i class="icon_menu"></i></a></div>
 													</div><!-- .container -->
 					</div><!-- #site-header-inner -->
 									</header><!-- #header -->
 
-						
+
 			<div id="main" class="site-main clr">
-						
-				
+
+
 	<div id="content-wrap" class="container clr full-width">
 		<section id="primary" class="content-area clr">
 			<div id="content" class="clr site-content" role="main">
 									<article class="clr">
 												<div class="entry-content entry clr">
 							<div id="riga_pg_int_titolo" class="wpb_row vc_row clr vc_row-fluid tablet-fullwidth-columns " ><div class="clr  " >
-	<div class="vc_col-sm-6 wpb_column column_container   "><div class="clr " >
-			
+	<div class="vc_col-sm-12 wpb_column column_container   "><div class="clr " >
+
 	<div class="wpb_text_column wpb_content_element " >
 		<div class="wpb_wrapper">
 			<div id="txt_contatti">
@@ -822,33 +822,9 @@ E-mail: <a href="mailto:info@master-retail.it">info@master-retail.it</a></p>
 		</div>
 	</div>
 </div>
-	</div> 
-
-	<div class="vc_col-sm-5 wpb_column column_container   "><div class="clr " >
-			
-	<div class="wpb_text_column wpb_content_element " >
-		<div class="wpb_wrapper">
-			<div role="form" class="wpcf7" id="wpcf7-f3044-p3035-o1" lang="it-IT" dir="ltr">
-<div class="screen-reader-response"></div>
-<form action="http://master-retail.it/contatti/#wpcf7-f3044-p3035-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-<div style="display: none;">
-<input type="hidden" name="_wpcf7" value="3044" />
-<input type="hidden" name="_wpcf7_version" value="4.4.2" />
-<input type="hidden" name="_wpcf7_locale" value="it_IT" />
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f3044-p3035-o1" />
-<input type="hidden" name="_wpnonce" value="3ac519286d" />
-</div>
-<p><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Il tuo nome *" /></span></p>
-<p><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="La tua email *" /></span></p>
-<p><span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Oggetto" /></span></p>
-<p><span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Il tuo messaggio"></textarea></span></p>
-<p><input type="submit" value="Invia" class="wpcf7-form-control wpcf7-submit" /></p>
-<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
-
-		</div>
 	</div>
-</div>
-	</div> 
+
+
 </div></div><!-- Row Backgrounds --><div class="upb_color" data-bg-override="full" data-bg-color="#e8e2e6" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false"  data-custom-vc-row=""  data-vc="5.5.5"  data-is_old_vc=""  data-theme-support=""   data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size=""    data-seperator="true"  data-seperator-type="none_seperator"  data-seperator-shape-size="40"  data-seperator-svg-height="60"  data-seperator-full-width="true" data-seperator-position="bottom_seperator"  data-seperator-background-color="#fff"  data-icon=""  ></div><div  class="wpb_row vc_row clr vc_row-fluid " ><div class="clr  " >
 	<div class="vc_col-sm-12 wpb_column column_container   no-spacing-column "><div class="clr " >
 			<div id='wrap_map_602bf3e9cfbf2' class='ultimate-map-wrapper ult-adjust-bottom-margin ' style='margin:0px;padding:0px; height:500px;'><div id='map_602bf3e9cfbf2' data-map_override='ex-full' class='ultimate_google_map wpb_content_element page_margin_top_section' style='width:100%;height:500px;'></div></div><script type='text/javascript'>
@@ -961,7 +937,7 @@ E-mail: <a href="mailto:info@master-retail.it">info@master-retail.it</a></p>
 			}
 			})(jQuery);
 			</script></div>
-	</div> 
+	</div>
 </div></div><!-- Row Backgrounds --><div class="upb_color" data-bg-override="full" data-bg-color="#ffffff" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false"  data-custom-vc-row=""  data-vc="5.5.5"  data-is_old_vc=""  data-theme-support=""   data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size=""    data-seperator="true"  data-seperator-type="xlarge_triangle_seperator"  data-seperator-shape-size="40"  data-seperator-svg-height="60"  data-seperator-full-width="true" data-seperator-position="top_seperator"  data-seperator-background-color="#e8e2e6"  data-icon=""  ></div>
 													</div><!-- .entry-content -->
 					</article><!-- #post -->
@@ -972,9 +948,9 @@ E-mail: <a href="mailto:info@master-retail.it">info@master-retail.it</a></p>
 
 		</div><!-- #main -->
 					<div id="footer" class="site-footer">
-				
+
 		<div id="footer-bar">
-		
+
 						<button id="site-scroll-top" class="user_button scroll-top"><span class="fa fa-chevron-up"></span></button>
 						<div id="copyright" class="clr" role="contentinfo">
 					<img style="text-align: center; padding: 12px 0 0 0;" src="../wp-content/uploads/2016/03/logotipo_master-retail.png" alt="" />
@@ -985,15 +961,15 @@ E-mail: <a href="mailto:info@master-retail.it">info@master-retail.it</a></p>
 <p id="copyright_mobile" style="text-align: center; margin: 0 0 0 0;">E-mail: <a href="mailto:info@master-retail.it">info@master-retail.it</a></p>
 <p id="copyright_mobile" style="text-align: center; margin: 0 0 0 0;">P.IVA 03765040989</p>
 <p style="text-align: center; margin: 15px 0 15px; color: #fff;"><a href="../privacy/index.html">PRIVACY</a>      <a href="../cookies/index.html">COOKIES</a></p>				</div><!-- #copyright -->
-			
+
 		</div>
 
 				</div><!-- #footer -->
-				
+
 	</div><!-- #wrap -->
 
 		<div class="mob-overlay"></div>
-	
+
 		<div class="searchform-wrap mobile-search">
 			<form role="search" method="get" class="searchform" action="http://master-retail.it/">
 				<div class="search-field">
@@ -1019,7 +995,7 @@ var _wpcf7 = {"loaderUrl":"http:\/\/master-retail.it\/wp-content\/plugins\/conta
 
 			<div id="cookie-notice" role="banner" class="cn-bottom bootstrap" style="color: #444444; background-color: #e8e2e6;"><div class="cookie-notice-container"><span id="cn-notice-text">Utilizziamo i cookie per essere sicuri che tu possa avere la migliore esperienza sul nostro sito. Se continui ad utilizzare questo sito noi assumiamo che tu ne sia felice.</span><a href="#" id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button bootstrap button">Ok</a><a href="../privacy/index.html" target="_blank" id="cn-more-info" class="cn-more-info cn-button bootstrap button">Leggi di più</a>
 				</div>
-				
+
 			</div>
 </body>
 
